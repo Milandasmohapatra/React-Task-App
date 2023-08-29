@@ -7,7 +7,7 @@ export default function ContactComponent(){
         <div className="row">
             <div className="col-8" style={{"marginLeft":"-40px"}}>
             <h1 align="center">About us</h1>
-            <h2>We are a 21st Century IT company with all Modern Strategies</h2>
+            <h2 className="text-danger">We are a 21st Century IT company with all Modern Strategies</h2>
             
             <p>Miraki Tech is an expert in SaaS Development, Web Designing, Web Development, Mobile Application Development, Digital Marketing, Cloud Solutions, and many more all-round IT solutions serving across countries on the customers’ customized wants which helps them succeed in their business targets. We are committed to giving the stablest web solutions to all classes of businesses at an affordable range. We understand the uniqueness of your business and your business needs.</p>
             <div>
@@ -15,17 +15,17 @@ export default function ContactComponent(){
             </div>
             </div>
             
-            <div className="col-3">
+            {/* <div className="col-3">
                 <>
                 <div>
-                    <img src="./software.jpg" width={"250px"} height={"200px"} alt="product" className="mt-4"  style={{"border":"3px solid pink","borderRadius":"50px"}}></img>
+                    <img src="../software.jpg" width={"250px"} height={"200px"} alt="product" className="mt-4"  style={{"border":"3px solid pink","borderRadius":"50px"}}></img>
                 </div>
                 <div> 
-                    <img src="./software2.jpg" width={"250px"} height={"200px"}  alt="product"className="mt-4" style={{"border":"3px solid pink","borderRadius":"50px"}}></img>
+                    <img src="../software2.jpg" width={"250px"} height={"200px"}  alt="product"className="mt-4" style={{"border":"3px solid pink","borderRadius":"50px"}}></img>
                 </div>
                 </>
 
-            </div>
+            </div> */}
         </div>
         </>
     )

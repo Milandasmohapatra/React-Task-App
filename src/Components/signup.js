@@ -4,10 +4,15 @@ import * as yup from "yup";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
+import { useEffect } from "react";
 export default function SignupComponent() {
   alert("login first")
+
   const Navigate=useNavigate()
-  Navigate("/login")
+  useEffect(()=>{
+    Navigate("/login")
+  },[])
+ 
  
 
   let formik = useFormik({
@@ -38,7 +43,7 @@ export default function SignupComponent() {
     ,
     onSubmit: (values) => {
       alert(JSON.stringify(values));
-      Navigate("/login")
+      // Navigate("/login")
      
       
       

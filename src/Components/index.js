@@ -29,14 +29,14 @@ export default function IndexComponent(){
             <Link  to="/signup"><button className='btn btn-primary mt-3 w-75'>Signup</button></Link>
             </div>
             <div>
-            <Link  to="/home" className='bg-white mt-3 w-75'></Link>
+            <Link  to="/home" className='bg-white mt-3 w-75'>HOME</Link>
             </div>
             <div>
             <Link  to="/history" className='bg-white mt-3 w-75'><button className='btn btn-primary mt-3 w-75'>History</button></Link>
             </div>
             <div>
             
-            <a href="https://mirakitech.com/"> <img src="./mainlogo.jpg" alt=" main logo" style={{"width":"400px","marginLeft":"-75px"}} className='mt-4 ' /> <div><button className='btn btn-primary  w-75'>Click img visit site</button></div></a>
+            <a href="https://mirakitech.com/"> <img src="../mainlogo.jpg" alt=" main logo" style={{"width":"400px","marginLeft":"-75px"}} className='mt-4 ' /> <div><button className='btn btn-primary  w-75'>Click img visit site</button></div></a>
             </div>
             </nav>   
             
@@ -55,9 +55,9 @@ export default function IndexComponent(){
                                     <code>Error:404-page not found</code>
                                
                             </Route> */}
-                             <Route path="*" element={           
-                             <h3 align="center"><code> Page not found:404</code></h3>
-                             }/>
+                              {/* <Route path="*" element={           
+                             <h3 align="center"><code> a Page not found:404</code></h3>
+                             }/>  */}
                            
                             
                                 
@@ -75,4 +75,4 @@ export default function IndexComponent(){
    )
    
     
-}
+                        }

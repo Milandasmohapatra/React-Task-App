@@ -1,9 +1,4 @@
-// import { useFormik } from "formik";
-// import * as yup from"yup";
-// // import { useState } from "react";
-// // import { useEffect } from "react";
-// // import axios from "axios";
-// import { Navigate} from "react-router-dom";
+
 import { useNavigate } from "react-router-dom";
 
 
@@ -14,10 +9,12 @@ import { useNavigate } from "react-router-dom";
 export default function LoginComponent(){
     const Navigate=useNavigate();
     function loginclick(){
-        fetch('../user.json')                       //data fetch from here("user.json") -// (" username":"milan","password":"milan@12")
-                .then(response=> response.json())
+                fetch('../user.json')  
+                                   
+                .then(response=>response.json())
                 .then(users=> {
-                   
+                    
+                   alert("sipu")
                    for(var user of users){
                        var username=document.getElementById("Myinput").value;
                        var password=document.getElementById("Mypassword").value;
@@ -28,6 +25,7 @@ export default function LoginComponent(){
                               
                               break;      
                        }
+                       alert("sipuuuuuuuuuuuuuu")
                       
                        if(!username && !password){
                            alert("provide your details")
@@ -38,8 +36,9 @@ export default function LoginComponent(){
                            Navigate("/login")
                            return;
                             };
-             }});
-
+                    }
+                });
+                  
 
                     // app.get("/getusers", (req, res)=>{
                     //     console.log("milan")
