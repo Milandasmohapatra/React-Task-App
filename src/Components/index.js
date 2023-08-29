@@ -45,19 +45,12 @@ export default function IndexComponent(){
             <main className='col-7'>
             
                     <Routes>
-                            <Route path="/" element={<Welcomecomponenet/>}/>   
+                            <Route path="*" element={<Welcomecomponenet/>}/>   
                             <Route path="login" element={<LoginComponent/>}/>
                             <Route path="signup" element={<SignupComponent/>}/>
                             <Route path="home" element={<HomeComponent/>}/>
                             <Route path="history" element={<ContactComponent/>}/>
-                            {/* <Route path="*">
-                                
-                                    <code>Error:404-page not found</code>
-                               
-                            </Route> */}
-                              {/* <Route path="*" element={           
-                             <h3 align="center"><code> a Page not found:404</code></h3>
-                             }/>  */}
+                         
                            
                             
                                 
