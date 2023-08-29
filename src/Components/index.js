@@ -8,10 +8,11 @@ import HomeComponent from './Home';
 import LoginComponent from './login';
 
 import SignupComponent from './signup';
-import Welcomecomponenet from './welcome';
+
 import AsideComponent from './Aside';
 import HeadComponent from './head';
 import ContactComponent from './contact';
+import Mainimage from './welcome';
 
 
 export default function IndexComponent(){
@@ -29,7 +30,7 @@ export default function IndexComponent(){
             <Link  to="/signup"><button className='btn btn-primary mt-3 w-75'>Signup</button></Link>
             </div>
             <div>
-            <Link  to="/home" className='bg-white mt-3 w-75'>HOME</Link>
+            <Link  to="/home" className='bg-white mt-3 w-75'></Link>
             </div>
             <div>
             <Link  to="/history" className='bg-white mt-3 w-75'><button className='btn btn-primary mt-3 w-75'>History</button></Link>
@@ -45,7 +46,7 @@ export default function IndexComponent(){
             <main className='col-7'>
             
                     <Routes>
-                            <Route path="/" element={<Welcomecomponenet/>}/>   
+                            <Route path="/" element={<Mainimage/>}/>   
                             <Route path="login" element={<LoginComponent/>}/>
                             <Route path="signup" element={<SignupComponent/>}/>
                             <Route path="home" element={<HomeComponent/>}/>

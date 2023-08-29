@@ -1,7 +1,7 @@
 
 
 
-export default function Welcomecomponenet(){
+export default function Mainimage(){
     return(
         <>
        <div className="mt-4 " >
