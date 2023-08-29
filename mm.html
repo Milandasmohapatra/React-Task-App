@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body class="container-fluid">
+    <h3>The exam paper</h3>
+    <button class="btn btn-primary" data-bs-target="#log" data-bs-toggle="modal">Login</button>
+    <div class="modal modal-fullscreen fade" id="log">
+        <div class="modal-dialog modal-dialog-scrollable">
+           <div class="modal-content">
+            <div class="modal-header">
+                <h2><span class="bi bi-person-fill"></span>User Login.</h2>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <dl>
+                    <dl>
+                        <dt>User </dt>
+                        <dd><input type="text" class='form-control' placeholder='Unser '/></dd>
+                        <dt>Password</dt>
+                        <dd><input type="text" class='form-control' placeholder='Password'/></dd>
+                    </dl>
+                </dl>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary">log in</button>
+                <button class="btn btn-danger" data-bs-dismiss="modal">cancel</button>
+            </div>
+           </div> 
+        </div>
+    </div>
+  
+  </div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

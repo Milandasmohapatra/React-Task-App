@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Task-App/static/css/main.d53bd427.css",
+    "main.js": "/React-Task-App/static/js/main.efcaa6f4.js",
+    "static/js/787.efe9e9c6.chunk.js": "/React-Task-App/static/js/787.efe9e9c6.chunk.js",
+    "static/media/bootstrap-icons.woff?": "/React-Task-App/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/React-Task-App/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "index.html": "/React-Task-App/index.html",
+    "main.d53bd427.css.map": "/React-Task-App/static/css/main.d53bd427.css.map",
+    "main.efcaa6f4.js.map": "/React-Task-App/static/js/main.efcaa6f4.js.map",
+    "787.efe9e9c6.chunk.js.map": "/React-Task-App/static/js/787.efe9e9c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d53bd427.css",
+    "static/js/main.efcaa6f4.js"
+  ]
+}
