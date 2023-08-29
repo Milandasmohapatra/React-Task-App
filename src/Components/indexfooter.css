@@ -1,0 +1,47 @@
+
+
+footer{
+position: absolute;
+background-color: #1e0f41;
+height: 250px;
+left: 20px;
+right: 20px;
+/* top: 1640px; */
+margin-top: 30px;
+}
+.details{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    cursor: pointer;
+}
+.email{
+    margin: 10px;
+}
+.sub{
+    margin: 10px;
+}
+.face{
+    margin: 5%;
+}
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.599);
+    font-size:15px;
+    cursor: pointer;
+
+}
+/* .btn{
+    height: 30px;
+    width: 100px;
+} */
+#searchh{
+    position: relative;
+    left: -119px;
+    font-size: 22px;
+    color: #FF3371;
+    z-index: 100;
+}

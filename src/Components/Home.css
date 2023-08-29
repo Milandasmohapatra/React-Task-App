@@ -1,0 +1,35 @@
+
+         
+         .Home {
+         text-align: center;
+         font-family: Arial, sans-serif;
+         }
+
+         .task {
+         
+         padding: 10px;
+         margin: 10px;
+         width:570px;
+         background-color: aqua;
+         
+         }
+        
+         .task-list{
+            border: 5px solid palevioletred;
+            height:350px;
+         overflow:scroll;
+         width: 580px;
+         }
+
+         .task button {
+         margin-left: 10px;
+         }
+
+         .completed {
+         text-decoration: line-through;
+         color: red;
+         }
+         .task-style{
+            color: red;
+            
+         }

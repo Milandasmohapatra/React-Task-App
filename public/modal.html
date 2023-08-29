@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <button class='btn btn-primary me-3' data-bs-target="#login" data-bs-toggle="modal"><span class='bi bi-person-fill'>&nbsp; Login</span></button>
+    <div class='modal fade' id="login">
+        <div class='modal-dialog modal-dialog-centered'>
+            <div class='modal-content'>
+                <div class='modal-header'>
+                    <span class='bi bi-person-fill'><h1>User Login</h1></span>
+                    <button class='btn-close'data-bs-dismiss="modal"></button>
+                </div>
+                <div class='modal-body'>
+                    <dl>
+                        <dt>User </dt>
+                        <dd><input type="text" class='form-control' placeholder='Unser '/></dd>
+                        <dt>Password</dt>
+                        <dd><input type="text" class='form-control' placeholder='Password'/></dd>
+                    </dl>
+                </div>
+                <div class='modal-footer'>
+                    <button class='btn btn-info'>Login</button>
+                    <button class='btn btn-danger'>Cancel</button>
+                </div>
+            </div>
+        </div>
+
+</div>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
