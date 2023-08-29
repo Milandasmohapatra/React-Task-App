@@ -38,9 +38,7 @@ export default function LoginComponent(){
                            Navigate("/login")
                            return;
                             };
-                }}) .catch(function(ex){
-                        console.ex("wrong credentials");
-                    })
+             }});
 
 
                     // app.get("/getusers", (req, res)=>{
