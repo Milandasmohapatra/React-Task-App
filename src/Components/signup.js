@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 import { useEffect } from "react";
 export default function SignupComponent() {
-  alert("login first")
+  // alert("login first")
 
   const Navigate=useNavigate()
   useEffect(()=>{

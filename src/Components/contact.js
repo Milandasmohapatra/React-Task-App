@@ -15,17 +15,7 @@ export default function ContactComponent(){
             </div>
             </div>
             
-            {/* <div className="col-3">
-                <>
-                <div>
-                    <img src="../software.jpg" width={"250px"} height={"200px"} alt="product" className="mt-4"  style={{"border":"3px solid pink","borderRadius":"50px"}}></img>
-                </div>
-                <div> 
-                    <img src="../software2.jpg" width={"250px"} height={"200px"}  alt="product"className="mt-4" style={{"border":"3px solid pink","borderRadius":"50px"}}></img>
-                </div>
-                </>
-
-            </div> */}
+           
         </div>
         </>
     )
