@@ -45,15 +45,11 @@ export default function IndexComponent(){
             <main className='col-7'>
             
                     <Routes>
-                            <Route path="*" element={<Welcomecomponenet/>}/>   
+                            <Route path="/" element={<Welcomecomponenet/>}/>   
                             <Route path="login" element={<LoginComponent/>}/>
                             <Route path="signup" element={<SignupComponent/>}/>
                             <Route path="home" element={<HomeComponent/>}/>
-                            <Route path="history" element={<ContactComponent/>}/>
-                         
-                           
-                            
-                                
+                            <Route path="history" element={<ContactComponent/>}/>          
                     </Routes>
             </main>
             <aside style={{"border":"2px solid white"}} className='col-2'>
