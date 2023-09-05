@@ -38,7 +38,7 @@ export default function IndexComponent(){
             </div>
             <div>
             
-            <a href="https://mirakitech.com/"> <img src="../mainlogo.jpg" alt=" main logo" style={{"width":"400px","marginLeft":"-75px"}} className='mt-4 ' /> <div><button className='btn btn-primary  w-75'>Click img visit site</button></div></a>
+            <a href="https://mirakitech.com/"> <img src="./'amazonlogo.jpg.png"  style={{"width":"400px","marginLeft":"-75px"}} className='mt-4 ' /> <div><button className='btn btn-primary  w-75'>Click to visit site</button></div></a>
             </div>
             </nav>   
             

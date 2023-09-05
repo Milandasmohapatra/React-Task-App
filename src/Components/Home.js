@@ -1,8 +1,18 @@
 
 import { useState } from "react";
 import './Home.css';
+import {  useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function HomeComponent() {
+  alert("login first");
+  const Navigate=useNavigate();
+  useEffect(()=>{
+    Navigate("/login")
+
+  },[])
+  
+
 
  
   

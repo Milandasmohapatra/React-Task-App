@@ -10,7 +10,7 @@ export default function SignupComponent() {
 
   const Navigate=useNavigate()
   useEffect(()=>{
-    Navigate("/signup")
+    // Navigate("/signup")
     Navigate("/login")
   },[])
  
