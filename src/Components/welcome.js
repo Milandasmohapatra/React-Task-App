@@ -6,9 +6,10 @@ export default function Mainimage(){
         <>
        <div className="mt-4 " >
        <h4 align="center" className="me-4 text-primary" style={{"fontStyle":"-moz-initial"}}>Build Revolutionary Businesses with Miraki Tech’s Advanced IT Solutions</h4>
-        <img src="/miraki.gif" alt=" miraki gif" width="750px" style={{"border":"10px solid violet","border-radius":"10%"}}></img>
-
+        <img src="./miraki.gif" alt=" miraki gif" width="750px" style={{"border":"10px solid violet","border-radius":"10%"}}></img>
+         <img src="/mira.jpg"></img>
        </div>
+       
 
 
         </>

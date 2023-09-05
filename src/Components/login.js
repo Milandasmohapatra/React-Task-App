@@ -7,9 +7,9 @@ import { useNavigate } from "react-router-dom";
 
 
 export default function LoginComponent(){
-    function Tosignup(){
-        Navigate("/signup")
-    }
+    // function Tosignup(){
+    //     Navigate("/signup")
+    // }
     const Navigate=useNavigate();
     function loginclick(){
                 fetch('../user.json')  

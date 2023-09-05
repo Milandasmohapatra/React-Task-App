@@ -30,7 +30,8 @@ export default function IndexComponent(){
             <Link  to="/signup"><button className='btn btn-primary mt-3 w-75'>Signup</button></Link>
             </div>
             <div>
-            <Link  to="/home" className='bg-white mt-3 w-75'></Link>
+            <Link  to="/home" ><button className='btn btn-primary mt-3 w-75'>HOME</button></Link>
+            
             </div>
             <div>
             <Link  to="/history" className='bg-white mt-3 w-75'><button className='btn btn-primary mt-3 w-75'>History</button></Link>
